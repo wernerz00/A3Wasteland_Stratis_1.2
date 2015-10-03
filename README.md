@@ -1,5 +1,6 @@
-# A3Wasteland Stratos
-Original Stratis author Cre4mPie
+A3Wasteland Stratis
+
+Original map author Cre4mPie
 
 Edits and other by wernerz, RV
 
