@@ -61,7 +61,6 @@ switch (true) do
 	};
 	case (_obj call _isCamera):
 	{
-		_variables pushBack ["a3w_cctv_camera", true];
 		_variables pushBack ["R3F_LOG_disabled", false];
 		_variables pushBack ["camera_name", (_obj getVariable ["camera_name", nil])];
 		_variables pushBack ["camera_owner_type", (_obj getVariable ["camera_owner_type", nil])];

@@ -15,7 +15,6 @@ _beaconSavingOn = ["A3W_spawnBeaconSaving"] call isConfigOn;
 _camonetSavingOn = ["A3W_camoNetSaving"] call isConfigOn;
 _timeSavingOn = ["A3W_timeSaving"] call isConfigOn;
 _weatherSavingOn = ["A3W_weatherSaving"] call isConfigOn;
-_cameraSavingOn = ["A3W_cctvCameraSaving"] call isConfigOn;
 
 _savingMethod = call A3W_savingMethod;
 
@@ -24,7 +23,6 @@ _isStaticWeapon = { _this isKindOf "StaticWeapon" };
 _isWarchest = { _this getVariable ["a3w_warchest", false] && {(_this getVariable ["side", sideUnknown]) in [WEST,EAST]} };
 _isBeacon = { _this getVariable ["a3w_spawnBeacon", false] };
 _isCamonet = { _this getVariable ["a3w_camoNet", false] };
-_isCamera = { _this getVariable ["a3w_cctv_camera", false] };
 
 _isSaveable = { (toLower _this) in A3W_saveableObjects };
 

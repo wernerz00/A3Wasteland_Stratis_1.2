@@ -26,7 +26,6 @@ _maxLifetime = ["A3W_objectLifetime", 0] call getPublicVar;
 _isWarchestEntry = { [_variables, "a3w_warchest", false] call fn_getFromPairs };
 _isBeaconEntry = { [_variables, "a3w_spawnBeacon", false] call fn_getFromPairs };
 _isCamonetEntry = { [_variables, "a3w_camoNet", false] call fn_getFromPairs };
-_isCameraEntry = { [_variables, "a3w_cctv_camera", false] call fn_getFromPairs };
 
 _worldDir = "persistence\server\world";
 _methodDir = format ["%1\%2", _worldDir, call A3W_savingMethodDir];
@@ -136,16 +135,6 @@ _exclObjectIDs = [];
 
 			_obj setVariable [_var, _value, true];
 		} forEach _variables;
-
-		// CCTV Camera
-		if (isNil "cctv_cameras" || {typeName cctv_cameras != typeName []}) then {
-			cctv_cameras = [];
-			};
-			
-			 if (_obj getVariable ["a3w_cctv_camera",false]) then {
-				cctv_cameras pushBack _obj;
-				publicVariable "cctv_cameras";
-		};
 
 		clearWeaponCargoGlobal _obj;
 		clearMagazineCargoGlobal _obj;
