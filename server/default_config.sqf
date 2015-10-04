@@ -12,7 +12,6 @@ A3W_teamPlayersMap = 1;            // Show all friendly players on the map at al
 A3W_disableGlobalVoice = 1;        // Auto-switch channel to Direct communication whenever broadcasting voice on global and side channel, unless being admin (0 = no, 1 = yes)
 A3W_uavControl = "group";          // Restrict connection to UAVs based on ownership ("owner", "group", "side")
 APOC_coolDownTimer = 1800;		   // APOC Air Drop Cool Down Time
-A3W_cctvCameraSaving = 1;          // Save cctv cameras between restarts (0 = no, 1 = yes)
 A3W_supportersEnabled = 1;			// Enable/Disable Supporter Features
 
 // Time settings
