@@ -290,9 +290,9 @@ accessoriesArray = compileFinal str
 	["Kahlia (Old) [DLC]", "optic_KHS_old", 500, "item"],
 	["LRPS", "optic_LRPS", 600, "item"],
 	["NVS", "optic_NVS", 1800, "item"],
-	["TWS", "optic_tws", 4000, "item"],
-	["TWS MG", "optic_tws_mg", 4500, "item"],
-	["Nightstalker", "optic_Nightstalker", 6250, "item"]
+	//["TWS", "optic_tws", 4000, "item"],
+	//["TWS MG", "optic_tws_mg", 4500, "item"],
+	["Nightstalker", "optic_Nightstalker", 3250, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -757,7 +757,7 @@ helicoptersArray = compileFinal str
 
 planesArray = compileFinal str
 [
-	["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 750000, "vehicle"],
+	//["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 750000, "vehicle"],
 	//["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 45000, "vehicle"],
 	//["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 60000, "vehicle"],
 	//["To-199 Neophron CAS", "O_Plane_CAS_02_F", 60000, "vehicle"],
@@ -943,11 +943,9 @@ customPlayerItems = compileFinal str
 	["Sky Mask", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\camonet.paa", 200, 100],
 	["Funny Funnel", "syphonhose", localize "STR_WL_ShopDescriptions_SyphonHose", "client\icons\syphonhose.paa", 200, 100],
 	["Super Sugar", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\energydrink.paa", 100, 50],
-	//["Coax CAM", "cctv_camera", localize "STR_WL_ShopDescriptions_CCTV_Camera", "addons\cctv\icons\camcorder.paa", 850, 500],
-	//["Camera Terminal", "cctv_base", localize "STR_WL_ShopDescriptions_CCTV_Base", "addons\cctv\icons\laptop.paa", 600, 300],
 	["LSD", "lsd", localize "STR_WL_ShopDescriptions_LSD", "client\icons\lsd.paa", 12500, 6250],
 	["Marijuana", "marijuana", localize "STR_WL_ShopDescriptions_Marijuana", "client\icons\marijuana.paa", 10000, 5000],
-	//["Cocaine", "cocaine", localize "STR_WL_ShopDescriptions_Cocaine", "client\icons\cocaine.paa", 14000, 7000],
+	["Cocaine", "cocaine", localize "STR_WL_ShopDescriptions_Cocaine", "client\icons\cocaine.paa", 14000, 7000],
 	["Heroin", "heroin", localize "STR_WL_ShopDescriptions_Heroin", "client\icons\heroin.paa", 15000, 7500]
 ];
 
