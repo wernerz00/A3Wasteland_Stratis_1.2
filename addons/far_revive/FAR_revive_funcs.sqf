@@ -214,7 +214,7 @@ FAR_public_EH =
 	};
 
 	// FAR_deathMessage
-	if (_EH == "FAR_deathMessage") then
+	/* if (_EH == "FAR_deathMessage") then
 	{
 		_names = _value select 0;
 		_unitName = _names select 0;
@@ -233,8 +233,13 @@ FAR_public_EH =
 				};
 			};
 		};
+	}; */
+	if (_EH == "FAR_deathMessage") then
+	{
+		call hkillMessage;
 	};
 	
+	hkillMessage
 	if (_EH == "FAR_gutMessage") then
 	{
 		_names = _value select 0;
