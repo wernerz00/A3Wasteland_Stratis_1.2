@@ -68,7 +68,7 @@ if (isNull _killer) then
 	} forEach _suspects;
 };
 
-//systemChat format ["%1's killer: %2", [typeOf _target, name _target], typeOf _killer];
+systemChat format ["%1's killer: %2", [typeOf _target, name _target], typeOf _killer];
 //diag_log format ["%1's killer: %2", [typeOf _target, name _target], typeOf _killer];
 
 if (_killer == _target) exitWith { objNull }; // Indirect suicide

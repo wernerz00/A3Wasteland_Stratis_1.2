@@ -63,10 +63,3 @@ if (["_crew_", typeOf player] call fn_findString != -1) then
 [player, ["<t color='#FF0000'><img image='client\icons\bomb.paa'/> Perform your duty!</t>", "addons\far_revive\FAR_lastResort.sqf",[], 10, false ]] call fn_addManagedAction;
 
 };
-
-if (["_officer_", typeOf player] call fn_findString != -1) then
-{
-
-[player, ["<t color='#FF0000'><img image='client\icons\bomb.paa'/> Best Medicine!</t>", "addons\far_revive\FAR_lastResort3.sqf",[], 10, false ]] call fn_addManagedAction;
-
-};

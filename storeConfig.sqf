@@ -289,10 +289,10 @@ accessoriesArray = compileFinal str
 	["Kahlia (Tan) [DLC]", "optic_KHS_tan", 500, "item"],
 	["Kahlia (Old) [DLC]", "optic_KHS_old", 500, "item"],
 	["LRPS", "optic_LRPS", 600, "item"],
-	["NVS", "optic_NVS", 1000, "item"],
-	//["TWS", "optic_tws", 2500, "item"],
-	//["TWS MG", "optic_tws_mg", 6000, "item"],
-	["Nightstalker", "optic_Nightstalker", 1500, "item"]
+	["NVS", "optic_NVS", 1800, "item"],
+	["TWS", "optic_tws", 4000, "item"],
+	["TWS MG", "optic_tws_mg", 4500, "item"],
+	["Nightstalker", "optic_Nightstalker", 6250, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -757,7 +757,7 @@ helicoptersArray = compileFinal str
 
 planesArray = compileFinal str
 [
-	//["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 40000, "vehicle"],
+	["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 750000, "vehicle"],
 	//["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 45000, "vehicle"],
 	//["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 60000, "vehicle"],
 	//["To-199 Neophron CAS", "O_Plane_CAS_02_F", 60000, "vehicle"],

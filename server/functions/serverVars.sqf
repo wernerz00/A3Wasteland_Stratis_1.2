@@ -16,7 +16,7 @@ if (isServer) then
 	#include "setupServerPVars.sqf"
 };
 
-currentStaticHelis = []; // Storage for the heli marker numbers so that we don't spawn wrecks on top of live helis
+currentStaticHelis = []; 
 
 //Civilian Vehicle List - Random Spawns
 civilianVehicles =
@@ -145,7 +145,6 @@ staticHeliList =
 	"B_Heli_Light_01_F",
 	"O_Heli_Light_02_unarmed_F",
 	"I_Heli_light_03_unarmed_F"
-	// don't put cargo helicopters here, it doesn't make sense to find them in towns; they spawn in the CivHeli mission
 ];
 
 //Object List - Random Planes.

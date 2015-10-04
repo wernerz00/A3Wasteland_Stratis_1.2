@@ -219,6 +219,7 @@ FAR_public_EH =
 		_names = _value select 0;
 		_unitName = _names select 0;
 		_killerName = _names param [1, nil];
+		_howFar = round (_killerName distance _unitName);
 		_unit = objectFromNetId (_value select 1);
 		_killer = objectFromNetId (_value select 2);
 		if (alive _unit) then
@@ -227,9 +228,8 @@ FAR_public_EH =
 			{
 				case (isNil "_killerName"): { systemChat format ["%1 was wounded", toString _unitName]; };
 				case (!isNil "_killerName" && !isPlayer _killer): { systemChat format ["%1 was wounded by enemy AI", toString _unitName]; };
-				//case (isNil "_killerName" && !isPlayer _unitName): { systemChat format ["%1 killed an enemy AI!", toString _names select 0;]; };
 				default {
-				systemChat format ["%1 was wounded by %2", toString _unitName, toString _killerName]; 
+				systemChat format ["%1 was wounded by %2 from %3m", toString _unitName, toString _killerName, _howFar]; 
 				};
 			};
 		};

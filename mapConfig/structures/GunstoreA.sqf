@@ -56,8 +56,6 @@ _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
 
-
-
 _pos = [2426.124756,5684.195801,-0.172958];
 _object = createVehicle ["Land_HBarrier_Big_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 268;
@@ -74,30 +72,3 @@ _object setPosATL _pos;
 _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
-
-
-
-_pos = [2461.696045,5667.526367,-1.04988];
-_object = createVehicle ["Land_Billboard_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 299.606;
-_object setPosATL _pos;
-_object SetObjectTextureGlobal [0,"mapconfig\img\bill2.jpg"];
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
-
-
-
-_pos = [2471.164551,5684.618652,-1.09738];
-_object = createVehicle ["Land_Billboard_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 303.937;
-_object setPosATL _pos;
-_object SetObjectTextureGlobal [0,"mapconfig\img\bill1.jpg"];
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
-
-
-
-
-

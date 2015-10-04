@@ -1,14 +1,3 @@
-
-_pos = [5544.933594,4720.196777,-1.22411];
-_object = createVehicle ["Land_Billboard_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 136.999;
-_object setPosATL _pos;
-_object SetObjectTextureGlobal [0,"mapconfig\img\bill1.jpg"];
-_object setVariable ["R3F_LOG_disabled", true];
-_object allowDamage true;
-_object enableSimulation false;
-
-
 _pos = [5555.863281,4707.223145,-0.233368];
 _object = createVehicle ["Land_u_Shop_02_V1_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 135.999;
@@ -16,8 +5,6 @@ _object setPosATL _pos;
 _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
-
-
 
 
 _pos = [5564.166504,4699.118652,0.230499];

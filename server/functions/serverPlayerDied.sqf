@@ -41,10 +41,6 @@ if (isPlayer _killer) then
 	{
 		_scoreColumn = "aiKills";
 		_scoreValue = if (_enemyKill || _victimSide == CIVILIAN) then { 1 } else { 0 };
-		switch (true) do
-			{
-				case (_victimSide == CIVILIAN && isPlayer _killer): { systemChat format ["%1 shot an Enemy AI", toString _unit]; };
-			};
 	};
 
 	[_killer, _scoreColumn, _scoreValue] call fn_addScore;

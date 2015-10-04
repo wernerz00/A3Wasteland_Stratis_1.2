@@ -53,7 +53,7 @@ If (_debug) then {
 };
 _object setMarkerColor "ColorBlack";
 _object setMarkerDir 0;
-//////////////////////////////////////////
+
 //Gunstore 6 - Agios
 _name = "GunStore6";
 _pos = [2763.6104,1760.5659,143.97308];
