@@ -24,7 +24,7 @@ If (_debug) then {
 };
 _object setMarkerColor "ColorBlack";
 _object setMarkerDir 0;
-//////////////////////////////////////////
+
 //VehStore7 - Maxwell
 _name = "VehStore7";
 _pos = [3271.3972,2944.8462,229.16788]; //  3272.8662,229.17892,2940.4248
