@@ -15,7 +15,7 @@ storeOwnerConfig = compileFinal str
 	["GenStore3", 4, 340, []],
 	["GenStore4", 0, 5, []],
 	//["GenStore5", 1, 5, []], // South Coast
-	["GenStore6", 1, 155, []], // AirPort
+	["GenStore6", 1, 155, []], // ArPrt
 
 	["GunStore2", 1, 138, []],
 	["GunStore3", 3, 140, []], //mx
@@ -29,7 +29,7 @@ storeOwnerConfig = compileFinal str
 	["VehStore4", 1, 135, ["Planes"]],
 	["VehStore5", 1, 130, ["Planes","Boats"]],
 	//["VehStore6", 1, 130, ["Planes","Boats"]]
-	["VehStore7", 1, 330, ["Planes","Boats"]] // max
+	["VehStore7", 0, 240, ["Planes","Boats"]] // mx - ["VehStore7", 1, 340, ["Planes","Boats"]
 	
 ];
 
