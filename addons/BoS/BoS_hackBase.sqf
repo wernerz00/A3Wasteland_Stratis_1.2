@@ -1,4 +1,4 @@
-//	@file Version: 1
+//	@file Version: 1 
 //	@file Name: BoS_hackBase.sqf
 //	@file Author: LouD (based on objectLockStateMachine.sqf by [404] Costlyy)
 //	@file Created: 22 march 2015
