@@ -1,6 +1,4 @@
-// Kit Loadouts Start here
-// Author: cre4mpie
-// Edits: wernerz, RV
+// Kit Loadouts Start here 
 
 	switch (true) do
 		{
@@ -14,10 +12,14 @@
 			_player addMagazine "10Rnd_762x54_Mag";
 			_player addWeapon "srifle_DMR_01_F";
 			_player addPrimaryWeaponItem "optic_DMS";
+			_player addItemtoBackpack "ClaymoreDirectionalMine_Remote_Mag";
+			_player addItemtoBackpack "ClaymoreDirectionalMine_Remote_Mag";
 			_player addWeapon "hgun_Rook40_F";
 			_player addMagazine "16Rnd_9x21_Mag";
 			_player addMagazine "16Rnd_9x21_Mag";
+			_player addWeapon "Rangefinder";
 			_player addItem "FirstAidKit";
+			_player addItem"FirstAidKit";
 						};
 			
 		case (["_diver_", typeOf _player] call fn_findString != -1):
@@ -73,8 +75,12 @@
 			_player addMagazine "30Rnd_556x45_Stanag";
 			_player addMagazine "30Rnd_556x45_Stanag";
 			_player addWeapon "arifle_Mk20_F";
+			_player addPrimaryWeaponItem "optic_aco_smg";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
+			_player addWeapon "launch_RPG32_F";
+			_player addMagazine "RPG32_F";
+			_player addMagazine "RPG32_F";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
@@ -83,6 +89,8 @@
 			_player addWeapon "Binoculars";
 			_player addItem "FirstAidKit";
 			_player addItem "FirstAidKit";
+			_player addHeadgear "H_Watchcap_blk";
+			_player addGoggles "G_Balaclava_blk";
 			};
 			
 		case (["_crew_", typeOf _player] call fn_findString != -1):
@@ -95,6 +103,9 @@
 			_player addItemToVest "MineDetector";
 			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
 			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
+			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
+			_player addMagazine "6Rnd_45ACP_Cylinder";
+			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
 			_player addHeadgear "H_ShemagOpen_tan";
@@ -111,11 +122,19 @@
 			_player addItemtoBackpack "DemoCharge_Remote_Mag";
 			_player addItemtoBackpack "DemoCharge_Remote_Mag";
 			_player addItem "MiniGrenade";
+			_player addItem "MiniGrenade";
 			_player addItem "FirstAidKit";
 			_player addItem "FirstAidKit";
 			_player addItemtoBackpack "APERSMine_Range_Mag";
+			_player addItemtoBackpack "APERSMine_Range_Mag";
+			_player addItemtoBackpack "ATMine_Range_Mag";
+			_player addItemtoBackpack "SLAMDirectionalMine_Wire_Mag";
+			_player addItemtoBackpack "SLAMDirectionalMine_Wire_Mag";
+			_player addMagazine "30Rnd_65x39_caseless_mag";
+			_player addMagazine "30Rnd_65x39_caseless_mag";
 			_player addMagazine "30Rnd_65x39_caseless_mag";
 			_player addWeapon "arifle_MXC_F";
+			_player addPrimaryWeaponItem "optic_Holosight";
 			};
 			
 			
@@ -128,9 +147,15 @@
 			_player forceAddUniform "U_B_PilotCoveralls";
 			_player addItem "SmokeShellYellow";
 			_player addItem "SmokeShellYellow";
+			_player addItem "SmokeShellYellow";
+			_player addItem "SmokeShellYellow";
+			_player addItem "FirstAidKit";
 			_player addItem "FirstAidKit";
 			_player addMagazine "130Rnd_338_Mag";
 			_player addWeapon "MMG_02_black_F";
+			_player addPrimaryWeaponItem "optic_aco_smg";
+			_player addPrimaryWeaponItem "bipod_01_F_blk";
+			_player addHeadgear "H_PilotHelmetFighter_B";
 			};
 			
 			default

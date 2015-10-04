@@ -18,7 +18,7 @@ inGameUISetEventHandler ["NextAction", ""];
 _descExtPath = str missionConfigFile;
 currMissionDir = compileFinal str (_descExtPath select [0, count _descExtPath - 15]);
 
-X_Server = false; 
+X_Server = false;
 X_Client = false;
 X_JIP = false;
 
