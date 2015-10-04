@@ -26,7 +26,7 @@ playerInventory = [];
 _amount = 0;
 _index = 0;
 
-_amount = MF_ITEMS_CCTV_CAMERA call mf_inventory_count;
+/* _amount = MF_ITEMS_CCTV_CAMERA call mf_inventory_count;
 for [{_x=1},{_x<=_amount},{_x=_x+1}] do
 {
 	playerInventory set [_index, MF_ITEMS_CCTV_CAMERA];
@@ -38,7 +38,7 @@ for [{_x=1},{_x<=_amount},{_x=_x+1}] do
 {
 	playerInventory set [_index, MF_ITEMS_CCTV_BASE];
 	_index = _index + 1;
-};
+}; */
 
 {
 	_class = _x select 0;
