@@ -14,6 +14,8 @@
 
 	["<img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\supplydrop_ca.paa'/> <t color='#007A29'>[</t>Request Airdrop<t color='#007A29'>]</t>","addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf",[], -100, false, false],
 	
+	//["<img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\transport_ca.paa'/> <t color='#0099FF'>[</t>Call Evac<t color='#0099FF'>]</t>","scripts\heloGoTo\heloGoTo_init.sqf",[], -100, false, false],
+	
 	["Track Beacons", "addons\beacondetector\beacondetector.sqf",0,-12,false,false,"","('MineDetector' in (items player)) && !BeaconScanInProgress"],
 	
 	["<img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\transport_ca.paa'/> <t color='#FFFFFF'>Cancel scanning.</t>", "Beaconscanstop = true",0,-12,false,false,"","BeaconScanInProgress"],
