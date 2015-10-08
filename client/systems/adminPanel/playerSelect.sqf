@@ -125,16 +125,16 @@ if (_uid call isAdmin) then
 					_smoke attachto _target
 				};
 			}forEach playableUnits;
-		};/*
+		};
 		case 8: //Kick Player
 		{
 			_targetUID = getPlayerUID _target;
 			{
 				if(getPlayerUID _x == _targetUID) exitWith
 				{
-					['#kick', _target];
+					preprocessFile 'client\functions\quit.sqf';
 				};
 			}forEach playableUnits;
-		};*/
+		};
 	};
 };
