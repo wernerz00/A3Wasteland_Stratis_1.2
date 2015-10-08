@@ -59,15 +59,6 @@ switch (true) do
 		_variables pushBack ["packing", false];
 		_variables pushBack ["ownerName", toArray (_obj getVariable ["ownerName", ""])];
 	};
-	case (_obj call _isCamera):
-	{
-		_variables pushBack ["R3F_LOG_disabled", false];
-		_variables pushBack ["camera_name", (_obj getVariable ["camera_name", nil])];
-		_variables pushBack ["camera_owner_type", (_obj getVariable ["camera_owner_type", nil])];
-		_variables pushBack ["camera_owner_value", (_obj getVariable ["camera_owner_value", nil])];
-		_variables pushBack ["mf_item_id", (_obj getVariable ["mf_item_id", nil])];
-	};
-	
 };
 
 _owner = _obj getVariable ["ownerUID", ""];

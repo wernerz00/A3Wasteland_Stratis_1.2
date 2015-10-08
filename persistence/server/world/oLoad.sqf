@@ -6,7 +6,7 @@
 
 #include "functions.sqf"
 
-private ["_strToSide", "_maxLifetime", "_isWarchestEntry", "_isBeaconEntry", "_isCamonetEntry", "_isCameraEntry", "_worldDir", "_methodDir", "_objCount", "_objects", "_exclObjectIDs"];
+private ["_strToSide", "_maxLifetime", "_isWarchestEntry", "_isBeaconEntry", "_isCamonetEntry", "_worldDir", "_methodDir", "_objCount", "_objects", "_exclObjectIDs"];
 
 _strToSide =
 {
@@ -53,7 +53,6 @@ _exclObjectIDs = [];
 			case (call _isWarchestEntry):       { _warchestSavingOn };
 			case (call _isBeaconEntry):         { _beaconSavingOn };
 			case (call _isCamonetEntry):        { _camonetSavingOn };
-			case (call _isCameraEntry):         { _cameraSavingOn };
 			case (_class call _isBox):          { _boxSavingOn };
 			case (_class call _isStaticWeapon): { _staticWeaponSavingOn };
 			default                             { _baseSavingOn };
