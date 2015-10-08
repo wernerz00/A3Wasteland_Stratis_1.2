@@ -97,11 +97,12 @@ if (_uid call isAdmin) then
 					execVM "client\systems\adminPanel\toggleInvisMode.sqf";
 					//Is logged from inside target script
 				};
-								case 11: //Tags
+				case 11: //Tags
 				{
 					execVM "client\systems\adminPanel\playerTags.sqf";
 					//Is logged from inside target script
 				};
+
 			};
 		};
 		case (!isNull _displayDebug): //Debug panel
