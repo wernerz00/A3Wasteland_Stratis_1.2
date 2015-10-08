@@ -258,18 +258,18 @@ class PlayersMenu
 			w = 0.05 * safezoneW;
 			h = 0.04 * safezoneH;
 		};
-		/*
+
 		class KickButton: w_RscButton
 		{
 			idc = -1;
 			text = "Kick";
 			onButtonClick = "[8] execVM 'client\systems\adminPanel\playerSelect.sqf'";
-			x = 0.625 * safezoneW + safezoneX;
+			x = 0.675 * safezoneW + safezoneX;
 			y = 0.70 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;
 			h = 0.04 * safezoneH;
 		};
-		*/
+
 	};
 };
 
