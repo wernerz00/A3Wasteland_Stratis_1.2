@@ -29,8 +29,8 @@ if (isPlayer _killer) then
 {
 	_victimSide = side group _unit;
 	_killerSide = side group _killer;
-	_indyIndyKill = ((_victimSide == _killerSide) && !(_victimSide in [BLUFOR,OPFOR]) && (group _unit != group _killer));
-	_enemyKill = (_killerSide getFriend _victimSide < 0.6 || _indyIndyKill);
+	//_indyIndyKill = ((_victimSide == _killerSide) && !(_victimSide in [BLUFOR,OPFOR]) && (group _unit != group _killer));
+	_enemyKill = (_killerSide getFriend _victimSide < 0.6); //(_killerSide getFriend _victimSide < 0.6 || _indyIndyKill);
 
 	if (isPlayer _unit) then
 	{
