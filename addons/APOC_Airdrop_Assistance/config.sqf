@@ -12,7 +12,6 @@ APOC_AA_VehOptions =
 	["Tempest Fuel", "O_Truck_03_fuel_F", 8000, "vehicle"],
 	["Offroad HMG","B_G_Offroad_01_armed_F",8500,"vehicle"],
 	["Strider HMG","I_MRAP_03_hmg_F",12000,"vehicle"],
-	["CRV-6e Bobcat", "B_APC_Tracked_01_CRV_F", 19500, "vehicle"],
 	["MH-9 Hummingbird", "B_Heli_Light_01_F", 13000, "vehicle"],
 	["UH-80 Ghost Hawk", "B_Heli_Transport_01_camo_F", 45000, "vehicle"]
 
