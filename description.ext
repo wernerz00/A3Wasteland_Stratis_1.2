@@ -54,7 +54,7 @@ pictureMap = "mapConfig\Loading.jpg";
 #include "client\systems\adminPanel\dialog\objectSearch.hpp"
 #include "client\systems\playerMenu\dialog\respawn_dialog.hpp"
 #include "client\systems\playerMenu\dialog\teamkill_dialog.hpp"
-#include "addons\proving_ground\PG_config.hpp"
+//#include "addons\proving_ground\PG_config.hpp"
 #include "addons\outlw_magrepack\config.hpp"
 #include "client\systems\hud\dialog\downloadData.hpp"
 #include "addons\TOParmaInfo\dialog\TOParmaInfo_dialog.hpp"
@@ -69,7 +69,7 @@ pictureMap = "mapConfig\Loading.jpg";
 
 class RscTitles
 {
-	#include "addons\proving_ground\PG_rsctitles.hpp"
+	//#include "addons\proving_ground\PG_rsctitles.hpp"
 	#include "addons\lsd_nvg\RscTitles.hpp"
 	#include "client\systems\hud\dialog\hud.hpp"
 	#include "client\systems\playerMenu\dialog\welcome.hpp"
@@ -84,25 +84,11 @@ class CfgFunctions
 		#include "server\CfgFunctions.hpp"
 		#include "client\CfgFunctions.hpp"
 	};
-	
 };
 
 class CfgNotifications
 {
 	#include "client\CfgNotifications.hpp"
-};
-
-class params
-{
-	class marker3D
-	{
-		title = "3D markers";
-		values[] = {0,1};
-		texts[] = {$STR_DISABLED,$STR_ENABLED};
-		default = 1;
-		isGlobal = 1;		
-		file = "addons\3D_Markers\3Dmarkers.sqf";
-	};
 };
 
 class CfgSounds
