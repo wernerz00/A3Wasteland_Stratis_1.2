@@ -367,8 +367,6 @@ lootworldObject_list =
 		0,
 		[
 			"Land_BakedBeans_F",                // food
-			"Land_BakedBeans_F",                // food
-			"Land_BottlePlastic_V2_F",          // water
 			"Land_BottlePlastic_V2_F",          // water
 			"Land_Can_V3_F",                    // energydrink
 			"Land_Suitcase_F",                  // repairkit
@@ -394,8 +392,6 @@ lootworldObject_list =
 			"Land_BottlePlastic_V2_F",          // water
 			"Land_Can_V3_F",                    // energydrink
 			"Land_Suitcase_F",                  // repairkit
-			"Land_Suitcase_F",                  // repairkit
-			"Land_CanisterOil_F",               // syphon hose
 			"Land_CanisterOil_F",               // syphon hose
 			"Land_CanisterFuel_F",              // jerrycan
 			"Land_CanisterFuel_F"               // jerrycan
