@@ -711,7 +711,7 @@ armoredArray = compileFinal str
 
 tanksArray = compileFinal str
 [
-	["CRV-6e Bobcat", "B_APC_Tracked_01_CRV_F", 12500, "vehicle"],
+	["CRV-6e Bobcat", "B_APC_Tracked_01_CRV_F", 12500, "vehicle"], //B_APC_Tracked_01_rcws_F
 	["IFV-6c Panther", "B_APC_Tracked_01_rcws_F", 12000, "vehicle"],
 	["FV-720 Mora", "I_APC_tracked_03_cannon_F", 15000, "vehicle"],
 	["BTR-K Kamysh", "O_APC_Tracked_02_cannon_F", 15000, "vehicle"],
@@ -757,7 +757,7 @@ helicoptersArray = compileFinal str
 
 planesArray = compileFinal str
 [
-	//["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 750000, "vehicle"],
+	//["A-143 Buzzard Recon", "I_Plane_Fighter_03_AA_F", 1000, "vehicle"],
 	//["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 45000, "vehicle"],
 	//["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 60000, "vehicle"],
 	//["To-199 Neophron CAS", "O_Plane_CAS_02_F", 60000, "vehicle"],
