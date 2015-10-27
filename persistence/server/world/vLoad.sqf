@@ -188,8 +188,9 @@ _exclVehicleIDs = [];
 		if (!isNil "_ammoCargo") then { _veh setAmmoCargo _ammoCargo };
 		if (!isNil "_fuelCargo") then { _veh setFuelCargo _fuelCargo };
 		if (!isNil "_repairCargo") then { _veh setRepairCargo _repairCargo };
-
+		
 		reload _veh;
+		
 		_veh hideObjectGlobal false;
 	};
 
