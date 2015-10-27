@@ -106,7 +106,6 @@ if (_uid call isAdmin) then
 					removeVest _x;
 					removeBackpack _x;
 					removeUniform _x;
-					removeAllWeapons _x;
 					removeAllAssignedItems _x;
 					_x setVariable ["cmoney", 0, true];
 				};
@@ -121,8 +120,9 @@ if (_uid call isAdmin) then
 					_target setDamage 0.48;
 					_target setHitPointDamage ["hitBody", 0.6];
 					player removeItems "FirstAidKit";
-					_smoke= "SmokeShellRed" createVehicle getPos _target;
-					_smoke attachto _target
+					_smoke = "SmokeShellOrange" createVehicle position player;
+					_smoke attachTo [player, [-0.1, 0.1, 0.15], "Pelvis"];
+					_smoke setVectorDirAndUp [ [0.5, 0.5, 0], [-0.5, 0.5, 0] ];
 				};
 			}forEach playableUnits;
 		};
@@ -136,5 +136,6 @@ if (_uid call isAdmin) then
 				};
 			}forEach playableUnits;
 		};
+		
 	};
 };

@@ -269,7 +269,7 @@ class PlayersMenu
 			w = 0.05 * safezoneW;
 			h = 0.04 * safezoneH;
 		};
-
+		
 	};
 };
 
