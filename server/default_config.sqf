@@ -147,16 +147,16 @@ MainMissions =
 [
 	// Mission filename, weight
 	["mission_ArmedDiversquad", 1],
-	["mission_Coastal_Convoy", 0.5],
+	//["mission_Coastal_Convoy", 0.5],
 	["mission_Convoy", 1],
-	["mission_Hackers", 0.5],
-	["mission_HostileHeliFormation", 0.5],
+	//["mission_Hackers", 0.5],
+	//["mission_HostileHeliFormation", 0.5],
 	//["mission_HostileJetFormation", 0.5],
 	["mission_APC", 1],
 	["mission_MBT", 1],
 	["mission_LightArmVeh", 1],
 	["mission_ArmedHeli", 1],
-	["mission_AbandonedJet", 0.5],
+	//["mission_AbandonedJet", 0.5],
 	["mission_CivHeli", 1]
 ];
 
@@ -184,5 +184,7 @@ MoneyMissions =
 	["mission_MoneyShipment", 1],
 	["mission_SunkenTreasure", 1],
 	["mission_militaryPatrol", 1],
-	["mission_altisPatrol", 1]
+	["mission_Hackers", 0.5],
+	["mission_HackLaptop", 0.5],
+	["mission_stratisPatrol", 1]
 ];
