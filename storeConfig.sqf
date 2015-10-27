@@ -596,7 +596,8 @@ genObjectsArray = compileFinal str
 	//["Empty Ammo Crate", "Box_NATO_Ammo_F", 200, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
 	//["Toilet Box", "Land_ToiletBox_F", 25, "object"],
-	["Lamp Post (Harbour)", "Land_LampHarbour_F", 100, "object"],
+	["Lamp Post (Harbour)", "Land_LampHarbour_F", 100, "object"], //Land_Device_assembled_F
+	["Base Control Device", "Land_Device_assembled_F", 1800, "object"],
 	["Lamp Post (Shabby)", "Land_LampShabby_F", 100, "object"],
 	["Boom Gate", "Land_BarGate_F", 150, "object"],
 	["Pipes", "Land_Pipes_Large_F", 200, "object"],
