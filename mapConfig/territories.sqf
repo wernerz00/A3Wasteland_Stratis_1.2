@@ -22,5 +22,7 @@
 	["TERRITORY_8", "Kill Farm", 250],
 	["TERRITORY_9", "Stratis Airbase Town", 250],
 	["TERRITORY_10", "Radar Station", 250],
-	["TERRITORY_11", "Nisi Bay", 250]
+	["TERRITORY_11", "Nisi Bay", 250],
+	["TERRITORY_13", "Agia Oil Rig", 375],
+	["TERRITORY_14", "Keiros Drilling Site", 375]
 ]

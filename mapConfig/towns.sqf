@@ -23,5 +23,7 @@
 	["Town_16", 100, "ol-Keiros"],
 	["Town_17", 100, "Camp Tempest"],
 	["Town_18", 100, "Tsoukalia"],
-	["Town_19", 50, "Military Range"]
+	["Town_19", 50, "Military Range"],
+	["Town_20", 50, "Agia Oil Rig"],
+	["Town_21", 50, "Keiros Drilling Site"]
 ]
