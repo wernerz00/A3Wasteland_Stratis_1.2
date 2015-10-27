@@ -70,28 +70,6 @@ _object setPosATL _pos;
 _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
-/*
-_pos = [1967.95,5796.39,0];
-_object = createVehicle ["Land_Dome_Small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 56.8182;
-_object setPosATL _pos;
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
 
-_pos = [2014.1,5781.3,-0.207358];
-_object = createVehicle ["Land_Dome_Small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir -0.207358;
-_object setPosATL _pos;
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
+//Rig
 
-_pos = [2004.71,5822.01,0.0426321];
-_object = createVehicle ["Land_Dome_Small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 54.5454;
-_object setPosATL _pos;
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
-*/
