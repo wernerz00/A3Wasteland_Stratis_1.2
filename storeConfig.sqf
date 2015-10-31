@@ -596,8 +596,7 @@ genObjectsArray = compileFinal str
 	//["Empty Ammo Crate", "Box_NATO_Ammo_F", 200, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
 	//["Toilet Box", "Land_ToiletBox_F", 25, "object"],
-	["Lamp Post (Harbour)", "Land_LampHarbour_F", 100, "object"], //Land_Device_assembled_F
-	["Base Control Device", "Land_Device_assembled_F", 1800, "object"],
+	["Lamp Post (Harbour)", "Land_LampHarbour_F", 100, "object"],
 	["Lamp Post (Shabby)", "Land_LampShabby_F", 100, "object"],
 	["Boom Gate", "Land_BarGate_F", 150, "object"],
 	["Pipes", "Land_Pipes_Large_F", 200, "object"],
@@ -628,6 +627,7 @@ genObjectsArray = compileFinal str
 	["Bag Bunker (Small)", "Land_BagBunker_Small_F", 250, "object"],
 	["Bag Bunker (Large)", "Land_BagBunker_Large_F", 500, "object"],
 	["Bag Bunker Tower", "Land_BagBunker_Tower_F", 1000, "object"],
+	["Base Control Device", "Land_Device_assembled_F", 5000, "object"],
 	["Military Cargo Post", "Land_Cargo_Patrol_V1_F", 800, "object"],
 	["Military Cargo Tower", "Land_Cargo_Tower_V1_F", 10000, "object"],
 	["Concrete Ramp", "Land_RampConcrete_F", 350, "object"],
@@ -721,7 +721,8 @@ tanksArray = compileFinal str
 	["M2A1 Slammer", "B_MBT_01_cannon_F", 22500, "vehicle"],
 	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 24500, "vehicle"], // Commander gun variant
 	["T-100 Varsuk", "O_MBT_02_cannon_F", 30000, "vehicle"],
-	["MBT-52 Kuma", "I_MBT_03_cannon_F", 40000, "vehicle"]
+	["MBT-52 Kuma", "I_MBT_03_cannon_F", 40000, "vehicle"],
+	["M5 MLRS", "B_MBT_01_mlrs_F", 60000, "vehicle"]
 ];
 
 
@@ -751,7 +752,7 @@ helicoptersArray = compileFinal str
 	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 25000, "vehicle"], // Armed Ka-60 with orca paintjob
 	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 25000, "vehicle"], // Armed Ka-60
 	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 30000, "vehicle"] // Armed AW159
-	//["AH-99 Blackfoot", "B_Heli_Attack_01_F", 50000, "vehicle"], // RAH-66 with gunner
+	//["AH-99 Blackfoot", "B_Heli_Attack_01_F", 50000, "vehicle"] // RAH-66 with gunner
 	//["Mi-48 Kajman (Hex)", "O_Heli_Attack_02_F", 60000, "vehicle"], // Mi-28 with gunner
 	//["Mi-48 Kajman (Black)", "O_Heli_Attack_02_black_F", 60000, "vehicle"] // Mi-28 with gunner (black camo)
 ];
