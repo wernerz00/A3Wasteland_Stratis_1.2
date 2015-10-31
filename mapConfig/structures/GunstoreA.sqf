@@ -7,7 +7,6 @@ _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
 
-
 _pos = [2413.874756,5704.431152,-5.46525];
 _object = createVehicle ["Land_Castle_01_wall_04_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 298.6;
@@ -16,8 +15,6 @@ _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
 
-
-
 _pos = [2457.280273,5714.831055,-7.10284];
 _object = createVehicle ["Land_Castle_01_wall_04_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 360;
@@ -25,8 +22,6 @@ _object setPosATL _pos;
 _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
-
-
 
 _pos = [2401.722168,5617.67334,-6.94352];
 _object = createVehicle ["Land_Castle_01_wall_04_F", _pos, [], 0, "CAN_COLLIDE"];
@@ -37,6 +32,21 @@ _object enableSimulation false;
 _object allowDamage true;
 
 
+_pos = [2426.124756,5684.195801,-0.172958];
+_object = createVehicle ["Land_HBarrier_Big_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 268;
+_object setPosATL _pos;
+_object setVariable ["R3F_LOG_disabled", true, true];
+_object enableSimulation false;
+_object allowDamage true;
+
+_pos = [2448.698486,5670.994141,0.76461];
+_object = createVehicle ["Land_TTowerBig_1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 209;
+_object setPosATL _pos;
+_object setVariable ["R3F_LOG_disabled", true, true];
+_object enableSimulation false;
+_object allowDamage true;
 
 _pos = [2474.97583,5698.600098,-0.0504608];
 _object = createVehicle ["Land_Cargo_Tower_V1_F", _pos, [], 0, "CAN_COLLIDE"];
@@ -46,28 +56,9 @@ _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
 _object allowDamage true;
 
-
-
 _pos = [2431.493408,5662.520996,-0.950714];
 _object = createVehicle ["Land_Shed_Small_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 115.59;
-_object setPosATL _pos;
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
-
-_pos = [2426.124756,5684.195801,-0.172958];
-_object = createVehicle ["Land_HBarrier_Big_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 268;
-_object setPosATL _pos;
-_object setVariable ["R3F_LOG_disabled", true, true];
-_object enableSimulation false;
-_object allowDamage true;
-
-
-_pos = [2448.698486,5670.994141,0.76461];
-_object = createVehicle ["Land_TTowerBig_1_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 209;
 _object setPosATL _pos;
 _object setVariable ["R3F_LOG_disabled", true, true];
 _object enableSimulation false;
