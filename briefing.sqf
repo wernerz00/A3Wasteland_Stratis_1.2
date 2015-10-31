@@ -16,73 +16,7 @@ waitUntil {!isNull player};
 player createDiarySubject ["infos", "Infos and Help"];
 player createDiarySubject ["infos1", "Server Info"];
 player createDiarySubject ["credits", "Credits"];
-
-player createDiaryRecord ["credits",
-[
-"Credits",
-"
-<br/><font size='16' color='#BBBBBB'>Developed by A3Wasteland.com:</font>
-<br/>	* AgentRev (TeamPlayerGaming)
-<br/>	* JoSchaap (GoT/Tweakers.net)
-<br/>	* MercyfulFate
-<br/>	* His_Shadow (KoS/KillonSight)
-<br/>	* Bewilderbeest (KoS/KillonSight)
-<br/>	* Torndeco
-<br/>	* Del1te (404Games)
-<br/>
-<br/><font size='16' color='#BBBBBB'>Original Arma 2 Wasteland missions by:</font>
-<br/>	* Tonic
-<br/>	* Sa-Matra
-<br/>	* MarKeR
-<br/>
-<br/><font size='16' color='#BBBBBB'>Improved and ported to Arma 3 by 404Games:</font>
-<br/>	* Deadbeat
-<br/>	* Costlyy
-<br/>	* Pulse
-<br/>	* Domuk
-<br/>
-<br/><font size='16' color='#BBBBBB'>Other contributors:</font>
-<br/>	* 82ndab-Bravo17 (GitHub)
-<br/>	* afroVoodo (Armaholic)
-<br/>	* Austerror (GitHub)
-<br/>	* AWA (OpenDayZ)
-<br/>	* bodybag (Gameaholic.se)
-<br/>	* code34 (iniDBI)
-<br/>	* Das Attorney (Jump MF)
-<br/>	* Ed! (404Games forums)
-<br/>	* Farooq (GitHub)
-<br/>	* gtoddc (A3W forums)
-<br/>	* HatchetHarry (GitHub)
-<br/>	* Hub (TeamPlayerGaming)
-<br/>	* k4n30 (GitHub)
-<br/>	* Killzone_Kid (KillzoneKid.com)
-<br/>	* Krunch (GitHub)
-<br/>	* LouDnl (GitHub)
-<br/>	* madbull (R3F)
-<br/>	* Mainfrezzer (Magnon)
-<br/>	* meat147 (GitHub)
-<br/>	* micovery (GitHub)
-<br/>	* Na_Palm (BIS forums)
-<br/>	* Outlawled (Armaholic)
-<br/>	* red281gt (GitHub)
-<br/>	* RockHound (BierAG)
-<br/>	* s3kShUn61 (GitHub)
-<br/>	* Sa-Matra (BIS forums)
-<br/>	* Sanjo (GitHub)
-<br/>	* SCETheFuzz (GitHub)
-<br/>	* Shockwave (A3W forums)
-<br/>	* SicSemperTyrannis (iniDB)
-<br/>	* SPJESTER (404Games forums)
-<br/>	* spunFIN (BIS forums)
-<br/>	* Tonic (BIS forums)
-<br/>	* wiking.at (A3W forums)
-<br/>	* xx-LSD-xx (Armaholic)
-<br/>	* Zenophon (BIS Forums)
-<br/>
-<br/><font size='16'>Thanks A LOT to everyone involved for the help and inspiration!</font>
-"
-]];
-
+player createDiarySubject ["map", "Bases"];
 
 _WASD = AKEYNAME("MoveForward") + "," + AKEYNAME("MoveBack") + "," + AKEYNAME("TurnLeft") + "," + AKEYNAME("TurnRight");
 
@@ -265,7 +199,7 @@ player createDiaryRecord ["infos1",
 <br/>Archer
 <br/>DarkWinz
 <br/>Hamster
-<br/>
+<br/>(Our rules can be found on the map or from Server Info inside Player Menu)
 <br/>Failure to comply with an Admin will result in removal from server.
 "
 ]];
@@ -281,6 +215,20 @@ player createDiaryRecord ["infos1",
 <br/>TS3: 216.127.64.146:9689 or search Wild Eye Games
 <br/>
 <br/>If you run into any issues on our servers, contact an admin or post at the forums.
+"
+]];
+
+player createDiaryRecord ["map",
+[
+"Bases",
+"
+<br/><font size='18'>Base Object FYI</font>
+<br/>- Keypad and 'Base Control Device' are needed purchases for security from General Store.
+<br/>- Locking base objects from their scroll-menu doesn't guarantee permanency.
+<br/>- The B.C.D. must be locked in order to open its menu.
+<br/>- Break-ins are allowed, glitching is not.
+<br/>- Base destruction is allowed, your responsible for secrecy.
+<br/>
 "
 ]];
 
