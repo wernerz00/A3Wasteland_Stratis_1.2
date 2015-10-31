@@ -130,7 +130,7 @@ if (_uid call isAdmin) then
 		{
 			_targetUID = getPlayerUID _target;
 			{
-				if(getPlayerUID _x == _targetUID) exitWith
+				if(getPlayerUID _x == _targetUID) then
 				{
 					preprocessFile 'client\functions\quit.sqf';
 				};
