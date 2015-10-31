@@ -13,7 +13,7 @@
 
 [
 	["TERRITORY_1", "Agia Marina", 250],
-	["TERRITORY_2", "Stratis Airbase", 500],
+	["TERRITORY_2", "Stratis Airbase North", 400],
 	["TERRITORY_3", "Airstation Mike", 250],
 	["TERRITORY_4", "South West Remote", 250],
 	["TERRITORY_5", "Camp Maxwell", 250],
@@ -24,5 +24,8 @@
 	["TERRITORY_10", "Radar Station", 250],
 	["TERRITORY_11", "Nisi Bay", 250],
 	["TERRITORY_13", "Agia Oil Rig", 375],
-	["TERRITORY_14", "Keiros Drilling Site", 375]
+	["TERRITORY_14", "Keiros Drilling Site", 375],
+	["TERRITORY_15", "Stratis Airbase South", 400],
+	["TERRITORY_16", "Camp Tempest", 250],
+	["TERRITORY_17", "Girna", 250]
 ]
