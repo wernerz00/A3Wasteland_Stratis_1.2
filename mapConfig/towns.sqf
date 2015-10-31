@@ -8,7 +8,7 @@
 	["Town_1", 150, "Air Station Mike-28"],
 	["Town_2", 150, "Nisi Bay"],
 	["Town_3", 100, "Agios Cephas"],
-	["Town_4", 100, "Girna"],
+	["Town_4", 60, "Girna"],
 	["Town_5", 200, "Baldy Barracks Town"],
 	["Town_6", 200, "Stratis Airbase Town"],
 	["Town_7", 250, "Stratis Airbase North"],
@@ -21,9 +21,10 @@
 	["Town_14", 150, "South West Remote"],
 	["Town_15", 100, "Camp Rogain"],
 	["Town_16", 100, "ol-Keiros"],
-	["Town_17", 100, "Camp Tempest"],
+	["Town_17", 60, "Camp Tempest"],
 	["Town_18", 100, "Tsoukalia"],
 	["Town_19", 50, "Military Range"],
-	["Town_20", 50, "Agia Oil Rig"],
-	["Town_21", 50, "Keiros Drilling Site"]
+	//["Town_20", 50, "Agia Oil Rig"],
+	//["Town_21", 50, "Keiros Drilling Site"],
+	["Town_22", 250, "Stratis Airbase South"]
 ]
