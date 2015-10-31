@@ -4,8 +4,8 @@
 // 2015-02-01 01:20pm
 // contributions from BIStudio Forums, by CRE4MPIE
 
-sleep 10;   //delay before message is displayed after logging in
-	
+sleep 8;   //delay before message is displayed after logging in
+
 _text = "
 <t align='center'><t shadow= 1 shadowColor='#000000'><t size='1.2'><t color='#ff0000'>#WEGames Wasteland Stratis</t>
 <br />
