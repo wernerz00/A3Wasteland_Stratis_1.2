@@ -23,7 +23,8 @@ if ([_uid, 2] call isAdmin) then {
 					"Unstuck player",
 					"Teleport",
 					"Teleport player to me",
-					"Teleport me to player"
+					"Teleport me to player",
+					"Money"
 	];
 
 	{
