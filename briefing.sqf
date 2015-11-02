@@ -16,7 +16,7 @@ waitUntil {!isNull player};
 player createDiarySubject ["infos", "Infos and Help"];
 player createDiarySubject ["infos1", "Server Info"];
 player createDiarySubject ["credits", "Credits"];
-player createDiarySubject ["map", "Bases"];
+//player createDiarySubject ["map", "Bases"];
 
 _WASD = AKEYNAME("MoveForward") + "," + AKEYNAME("MoveBack") + "," + AKEYNAME("TurnLeft") + "," + AKEYNAME("TurnRight");
 
@@ -218,7 +218,7 @@ player createDiaryRecord ["infos1",
 "
 ]];
 
-player createDiaryRecord ["map",
+/* player createDiaryRecord ["map",
 [
 "Bases",
 "
@@ -230,5 +230,5 @@ player createDiaryRecord ["map",
 <br/>- Base destruction is allowed, your responsible for secrecy.
 <br/>
 "
-]];
+]]; */
 
