@@ -712,17 +712,17 @@ armoredArray = compileFinal str
 
 tanksArray = compileFinal str
 [
-	["CRV-6e Bobcat", "B_APC_Tracked_01_CRV_F", 12500, "vehicle"], //B_APC_Tracked_01_rcws_F
+	["CRV-6e Bobcat", "B_APC_Tracked_01_CRV_F", 12500, "vehicle"],
 	["IFV-6c Panther", "B_APC_Tracked_01_rcws_F", 12000, "vehicle"],
 	["FV-720 Mora", "I_APC_tracked_03_cannon_F", 15000, "vehicle"],
 	["BTR-K Kamysh", "O_APC_Tracked_02_cannon_F", 15000, "vehicle"],
 	["IFV-6a Cheetah AA", "B_APC_Tracked_01_AA_F", 27500, "vehicle"],
 	["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 30000, "vehicle"],
 	["M2A1 Slammer", "B_MBT_01_cannon_F", 22500, "vehicle"],
-	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 24500, "vehicle"], // Commander gun variant
+	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 24500, "vehicle"],
 	["T-100 Varsuk", "O_MBT_02_cannon_F", 30000, "vehicle"],
-	["MBT-52 Kuma", "I_MBT_03_cannon_F", 40000, "vehicle"],
-	["M5 MLRS", "B_MBT_01_mlrs_F", 60000, "vehicle"]
+	["MBT-52 Kuma", "I_MBT_03_cannon_F", 40000, "vehicle"]
+	//["M5 MLRS", "B_MBT_01_mlrs_F", 60000, "vehicle"]
 ];
 
 
@@ -752,14 +752,14 @@ helicoptersArray = compileFinal str
 	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 25000, "vehicle"], // Armed Ka-60 with orca paintjob
 	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 25000, "vehicle"], // Armed Ka-60
 	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 30000, "vehicle"] // Armed AW159
-	//["AH-99 Blackfoot", "B_Heli_Attack_01_F", 50000, "vehicle"] // RAH-66 with gunner
-	//["Mi-48 Kajman (Hex)", "O_Heli_Attack_02_F", 60000, "vehicle"], // Mi-28 with gunner
-	//["Mi-48 Kajman (Black)", "O_Heli_Attack_02_black_F", 60000, "vehicle"] // Mi-28 with gunner (black camo)
+	//["AH-99 Blackfoot", "B_Heli_Attack_01_F", 145000, "vehicle"], // RAH-66 with gunner
+	//["Mi-48 Kajman (Hex)", "O_Heli_Attack_02_F", 165000, "vehicle"], // Mi-28 with gunner
+	//["Mi-48 Kajman (Black)", "O_Heli_Attack_02_black_F", 165000, "vehicle"] // Mi-28 with gunner (black camo)
 ];
 
 planesArray = compileFinal str
 [
-	//["A-143 Buzzard Recon", "I_Plane_Fighter_03_AA_F", 1000, "vehicle"],
+	//["A-143 Buzzard", "I_Plane_Fighter_03_AA_F", 45000, "vehicle"],
 	//["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 45000, "vehicle"],
 	//["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 60000, "vehicle"],
 	//["To-199 Neophron CAS", "O_Plane_CAS_02_F", 60000, "vehicle"],
