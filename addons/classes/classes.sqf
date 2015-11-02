@@ -20,7 +20,7 @@
 			_player addWeapon "Rangefinder";
 			_player addItem "FirstAidKit";
 			_player addItem"FirstAidKit";
-						};
+			};
 			
 		case (["_diver_", typeOf _player] call fn_findString != -1):
 			{
@@ -72,10 +72,10 @@
 			removeAllWeapons _player;
 			_player addBackpack "B_Carryall_oli";
 			_player forceAddUniform "U_BG_Guerilla2_1";
-			_player addMagazine "30Rnd_556x45_Stanag";
-			_player addMagazine "30Rnd_556x45_Stanag";
-			_player addWeapon "arifle_Mk20_F";
-			_player addPrimaryWeaponItem "optic_aco_smg";
+			_player addMagazine "30Rnd_556x45_Stanag_Tracer_Green"; //30Rnd_556x45_Stanag_Tracer_Green
+			_player addMagazine "30Rnd_556x45_Stanag_Tracer_Green"; //30Rnd_556x45_Stanag
+			_player addWeapon "arifle_TRG20_Holo_F"; // arifle_Mk20_F
+			//_player addPrimaryWeaponItem "optic_aco_smg";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
 			_player addWeapon "launch_RPG32_F";
@@ -108,6 +108,8 @@
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
+			_player addMagazine "200Rnd_65x39_cased_Box_Tracer";
+			_player addWeapon "LMG_Mk200_MRCO_F";
 			_player addHeadgear "H_ShemagOpen_tan";
 			};
 			
