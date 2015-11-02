@@ -259,7 +259,7 @@ class PlayersMenu
 			h = 0.04 * safezoneH;
 		};
 
-		class KickButton: w_RscButton
+		/* class KickButton: w_RscButton
 		{
 			idc = -1;
 			text = "Kick";
@@ -268,7 +268,7 @@ class PlayersMenu
 			y = 0.70 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;
 			h = 0.04 * safezoneH;
-		};
+		}; */
 		
 		
 	};
