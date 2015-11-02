@@ -126,7 +126,7 @@ if (_uid call isAdmin) then
 				};
 			}forEach playableUnits;
 		};
-		case 8: //Kick Player
+		/* case 8: //Kick Player
 		{
 			_targetUID = getPlayerUID _target;
 			{
@@ -135,7 +135,7 @@ if (_uid call isAdmin) then
 					preprocessFile 'client\functions\quit.sqf';
 				};
 			}forEach playableUnits;
-		};
+		}; */
 		
 	};
 };
