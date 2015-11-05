@@ -200,6 +200,14 @@ class playerSettings {
 			x = 0.158; y = 0.57;
 			w = 0.225; h = 0.033 * safezoneH;
 		};
+		
+		/* class showStat : w_RscButton { 
+			idc = -1;
+			text = "Show Stats";
+			onButtonClick = "[] execVM 'addons\statusBar\statusbar.sqf'";
+			x = 0.158; y = 0.5;
+			w = 0.225; h = 0.033 * safezoneH;
+		}; */
 
 	};
 };
