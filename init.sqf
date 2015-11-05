@@ -93,5 +93,6 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvT.sqf";
 	[] execVM "addons\HvT\HvD.sqf";
 	[] execVM "addons\TearGas\tear_gas.sqf";
+	[] execVM "addons\messages\init.sqf"; //Testing
 	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";};
 };
