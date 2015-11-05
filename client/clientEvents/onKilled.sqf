@@ -97,6 +97,7 @@ _player spawn
 
 _player spawn fn_removeAllManagedActions;
 removeAllActions _player;
+//_indKill _this select 0;
 
 // Same-side kills
 if (_player == player && (playerSide == side group _killer) && (player != _killer) && (vehicle player != vehicle _killer)) then
@@ -119,6 +120,7 @@ if (_player == player && (playerSide == side group _killer) && (player != _kille
 		{
 			pvar_removeNegativeScore = _killer;
 			publicVariableServer "pvar_removeNegativeScore";
+			//_indKill addScore ((([_indKill, "playerKills"] call fn_getScore);
 		};
 	};
 };
