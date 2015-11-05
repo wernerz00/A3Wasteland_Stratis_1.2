@@ -176,7 +176,7 @@ SideMissions =
 	["mission_Smugglers", 1],
 	["mission_drugsRunners", 0.5],
 	["mission_GeoCache", 1],
-	["mission_Rebels", 1]
+	["mission_Rebels", 0.5]
 ];
 
 MoneyMissions =
@@ -186,10 +186,6 @@ MoneyMissions =
 	["mission_militaryPatrol", 1],
 	["mission_Hackers", 0.5],
 	["mission_HackLaptop", 0.5],
-	["mission_stratisPatrol", 1]
-];
-
-BountyMissions =
-[
+	["mission_stratisPatrol", 1],
 	["mission_Bounty", 1]
 ];
