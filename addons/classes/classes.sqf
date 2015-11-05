@@ -1,11 +1,10 @@
-// Kit Loadouts Start here 
-
+// Place to start: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Weapons
 	switch (true) do
 		{
 		case (["_sniper_", typeOf _player] call fn_findString != -1):
 			{
-			removeBackpack _player;
-			removeAllWeapons _player;
+			removeBackpack _player; //Do not remove
+			removeAllWeapons _player; //Do not remove
 			_player addBackpack "B_FieldPack_oucamo";
 			_player addMagazine "10Rnd_762x54_Mag";
 			_player addMagazine "10Rnd_762x54_Mag";
